@@ -44,3 +44,20 @@ pip install -r requirement
 python Keylogger_Store.py
 ```
 And I explained the rest of the instructions above. What to do after execution: Proceed exactly as described above.
+
+# What should I do if I am not Iranian and do not have access to the Iranian messenger bale.ai?
+Just open the source code of the Keylogger_Store.py file and wherever this address was
+```
+https://tapi.bale.ai
+```
+Change to this address
+```
+https://api.telegram.org
+```
+And now you can use the script, Good luck.
+
+# The creator?
+An 18-year-old Iranian boy who loves hacking and the world of programming and computer science. , 💻+🧠= ?
+
+
+
