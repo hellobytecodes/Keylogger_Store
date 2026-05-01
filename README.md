@@ -3,6 +3,8 @@ This tool is designed for legal purposes only.
 
 # Photos of the tool in action
 <img src="Image/key.jpg" width="400" height="400">
+
+# Buttons sent in the bot
 <img src="Image/bot.png" width="500" height="500">
 
 # Description
